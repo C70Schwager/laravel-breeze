@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+    footer {
+        background-color: #383838;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .copyright {
+        font-size: 14px;
+        color: #777;
+        margin: 0;
+    }
+
+    .logout-form {
+        margin: 0;
+    }
+
+    .logout-button {
+        background-color: #ff0000; /* Rote Hintergrundfarbe */
+        color: #fff; /* Textfarbe weiß */
+        border: none;
+        border-radius: 5px; /* Runde Ecken */
+        padding: 10px 20px; /* Innenabstand oben/unten und links/rechts */
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+
